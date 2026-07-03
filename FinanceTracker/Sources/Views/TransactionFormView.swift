@@ -150,7 +150,7 @@ private struct CategoryChip: View {
                 }
                 Text(category.displayName)
                     .font(.caption2)
-                    .foregroundStyle(.primary)
+                    .foregroundStyle(.white)
                     .lineLimit(1)
             }
             .frame(width: 64)

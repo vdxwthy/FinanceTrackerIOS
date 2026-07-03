@@ -38,7 +38,7 @@ struct CategoriesManagementView: View {
                             Image(systemName: category.icon).foregroundStyle(category.color).font(.subheadline)
                         }
                         Text(category.displayName)
-                            .foregroundStyle(.primary)
+                            .foregroundStyle(.white)
                         Spacer()
                         if !category.isCustom {
                             Image(systemName: "lock.fill")
@@ -47,9 +47,16 @@ struct CategoriesManagementView: View {
                         }
                     }
                 }
-            }
-            .onDelete { offsets in
-                delete(offsets: offsets, in: type)
+                .swipeActions(edge: .trailing) {
+                    if category.isCustom {
+                        Button(role: .destructive) {
+                            modelContext.delete(category)
+                        } label: {
+                            Label("action.delete", systemImage: "trash")
+                        }
+                        .tint(.red)
+                    }
+                }
             }
 
             Button {
@@ -60,14 +67,6 @@ struct CategoriesManagementView: View {
         }
     }
 
-    private func delete(offsets: IndexSet, in type: TransactionType) {
-        let items = categories(for: type)
-        for index in offsets {
-            let category = items[index]
-            guard category.isCustom else { continue }
-            modelContext.delete(category)
-        }
-    }
 }
 
 #Preview {

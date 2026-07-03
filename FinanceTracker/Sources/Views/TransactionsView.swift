@@ -93,6 +93,7 @@ struct TransactionsView: View {
                                             } label: {
                                                 Label("action.delete", systemImage: "trash")
                                             }
+                                            .tint(.red)
                                             Button {
                                                 editingTransaction = transaction
                                             } label: {
