@@ -1,0 +1,79 @@
+/* Tabs */
+"tab.overview" = "Обзор";
+"tab.transactions" = "Операции";
+"tab.stats" = "Статистика";
+"tab.settings" = "Настройки";
+
+/* Types */
+"type.income" = "Доход";
+"type.expense" = "Расход";
+
+/* Dashboard */
+"dashboard.totalBalance" = "Общий баланс";
+"dashboard.recent" = "Последние";
+"dashboard.empty" = "Пока нет операций";
+"dashboard.addFirst" = "Добавить первую операцию";
+
+/* Transactions list */
+"transactions.emptyTitle" = "Нет операций";
+"transactions.emptySubtitle" = "Добавьте операцию, чтобы начать.";
+"transactions.noResults" = "Ничего не найдено по запросу «%@».";
+"transactions.searchPrompt" = "Поиск операций";
+"transactions.filterAll" = "Все";
+
+/* Transaction form */
+"form.type" = "Тип";
+"form.amount" = "Сумма";
+"form.category" = "Категория";
+"form.details" = "Детали";
+"form.date" = "Дата";
+"form.notePlaceholder" = "Заметка (необязательно)";
+"form.newTitle" = "Новая операция";
+"form.editTitle" = "Редактировать операцию";
+"form.newCategory" = "Новая";
+
+/* Stats */
+"stats.byCategory" = "Расходы по категориям за месяц";
+"stats.noData" = "Нет данных";
+"stats.noDataDescription" = "В этом месяце нет операций типа «%@».";
+"stats.last6Months" = "Последние 6 месяцев";
+
+/* Settings */
+"settings.title" = "Настройки";
+"settings.currency" = "Валюта";
+"settings.categories" = "Категории";
+
+/* Categories management */
+"categories.title" = "Категории";
+"categories.add" = "Добавить категорию";
+
+/* Category editor */
+"categoryEditor.newTitle" = "Новая категория";
+"categoryEditor.editTitle" = "Редактировать категорию";
+"categoryEditor.name" = "Название";
+"categoryEditor.namePlaceholder" = "Название категории";
+"categoryEditor.preview" = "Предпросмотр";
+"categoryEditor.icon" = "Иконка";
+"categoryEditor.color" = "Цвет";
+
+/* Common actions */
+"action.cancel" = "Отмена";
+"action.save" = "Сохранить";
+
+/* Built-in category names */
+"category.food" = "Еда";
+"category.transport" = "Транспорт";
+"category.shopping" = "Покупки";
+"category.entertainment" = "Развлечения";
+"category.health" = "Здоровье";
+"category.housing" = "Жильё";
+"category.utilities" = "Коммунальные услуги";
+"category.education" = "Образование";
+"category.travel" = "Путешествия";
+"category.otherExpense" = "Другое";
+"category.salary" = "Зарплата";
+"category.business" = "Бизнес";
+"category.gift" = "Подарок";
+"category.investment" = "Инвестиции";
+"category.otherIncome" = "Другое";
+"category.other" = "Другое";

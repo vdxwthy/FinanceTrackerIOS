@@ -1,0 +1,79 @@
+/* Tabs */
+"tab.overview" = "Overview";
+"tab.transactions" = "Transactions";
+"tab.stats" = "Stats";
+"tab.settings" = "Settings";
+
+/* Types */
+"type.income" = "Income";
+"type.expense" = "Expense";
+
+/* Dashboard */
+"dashboard.totalBalance" = "Total Balance";
+"dashboard.recent" = "Recent";
+"dashboard.empty" = "No transactions yet";
+"dashboard.addFirst" = "Add your first transaction";
+
+/* Transactions list */
+"transactions.emptyTitle" = "No Transactions";
+"transactions.emptySubtitle" = "Add a transaction to get started.";
+"transactions.noResults" = "No results for \"%@\".";
+"transactions.searchPrompt" = "Search transactions";
+"transactions.filterAll" = "All";
+
+/* Transaction form */
+"form.type" = "Type";
+"form.amount" = "Amount";
+"form.category" = "Category";
+"form.details" = "Details";
+"form.date" = "Date";
+"form.notePlaceholder" = "Note (optional)";
+"form.newTitle" = "New Transaction";
+"form.editTitle" = "Edit Transaction";
+"form.newCategory" = "New";
+
+/* Stats */
+"stats.byCategory" = "This Month by Category";
+"stats.noData" = "No Data";
+"stats.noDataDescription" = "No %@ recorded this month.";
+"stats.last6Months" = "Last 6 Months";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.currency" = "Currency";
+"settings.categories" = "Categories";
+
+/* Categories management */
+"categories.title" = "Categories";
+"categories.add" = "Add Category";
+
+/* Category editor */
+"categoryEditor.newTitle" = "New Category";
+"categoryEditor.editTitle" = "Edit Category";
+"categoryEditor.name" = "Name";
+"categoryEditor.namePlaceholder" = "Category name";
+"categoryEditor.preview" = "Preview";
+"categoryEditor.icon" = "Icon";
+"categoryEditor.color" = "Color";
+
+/* Common actions */
+"action.cancel" = "Cancel";
+"action.save" = "Save";
+
+/* Built-in category names */
+"category.food" = "Food";
+"category.transport" = "Transport";
+"category.shopping" = "Shopping";
+"category.entertainment" = "Entertainment";
+"category.health" = "Health";
+"category.housing" = "Housing";
+"category.utilities" = "Utilities";
+"category.education" = "Education";
+"category.travel" = "Travel";
+"category.otherExpense" = "Other";
+"category.salary" = "Salary";
+"category.business" = "Business";
+"category.gift" = "Gift";
+"category.investment" = "Investment";
+"category.otherIncome" = "Other";
+"category.other" = "Other";
