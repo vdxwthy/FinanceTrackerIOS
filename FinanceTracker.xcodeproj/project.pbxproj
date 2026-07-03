@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		038ED2FC7ECD489CB18B79BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC885196B6F53E3E3B59993F /* Assets.xcassets */; };
+		173DE1890B240294EF16F55F /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBB4A007ADCABC96E852DD7 /* AppTheme.swift */; };
 		3E467ECB0140F439E65D3B25 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7969A267A8C80DE2FD00D2F4 /* SettingsView.swift */; };
-		6035F4CA9343225C92C3626C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4339D502A850DEC422A5408 /* Localizable.strings */; };
 		655A911D604F78B7D165CE82 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79DCEF4A2BCCF7691475378 /* DashboardView.swift */; };
 		6A219AE6349A2330B4F527AE /* TransactionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C1DC21544F690196CBDDD6 /* TransactionFormView.swift */; };
 		6C6DB35D87B22CB45872EC78 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7B39464322DF66907C9C5 /* TransactionsView.swift */; };
@@ -31,7 +30,6 @@
 		109D76B10C35E4B7DCB8FF26 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		188D244E036C09F3576C6A66 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		2D14F7FA08418E7BF364854C /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		4A66AD67B91479F045053668 /* en */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5C71EC762370A0DA314F7803 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		5CB791297365162D960C023C /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
 		68C032E6840E396D3C8627D1 /* CategoriesManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesManagementView.swift; sourceTree = "<group>"; };
@@ -45,9 +43,8 @@
 		C031666D8A772B51645AD661 /* CategoryEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryEditorView.swift; sourceTree = "<group>"; };
 		D5D7B39464322DF66907C9C5 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
 		D79DCEF4A2BCCF7691475378 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
-		DA600E2DFB0CC006E001794D /* ru */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DC885196B6F53E3E3B59993F /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E47E8CBB665CAB1EC9011A97 /* CategorySeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySeeder.swift; sourceTree = "<group>"; };
+		FDBB4A007ADCABC96E852DD7 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -87,19 +84,10 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		B0191BDA2284D15928592876 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DC885196B6F53E3E3B59993F /* Assets.xcassets */,
-				A4339D502A850DEC422A5408 /* Localizable.strings */,
-			);
-			name = Resources;
-			path = FinanceTracker/Resources;
-			sourceTree = "<group>";
-		};
 		D599DA008D9151D7403469F2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FDBB4A007ADCABC96E852DD7 /* AppTheme.swift */,
 				188D244E036C09F3576C6A66 /* Color+Hex.swift */,
 				97C585BEF824BA8D5690257E /* CurrencyFormatter.swift */,
 			);
@@ -122,7 +110,6 @@
 			children = (
 				304D9BAFE39F0C01F13F2E0E /* Sources */,
 				343055944EC6722D9C82C82B /* Products */,
-				B0191BDA2284D15928592876 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,13 +121,14 @@
 			buildConfigurationList = 082B2FFE7CB25F76BB28F223 /* Build configuration list for PBXNativeTarget "FinanceTracker" */;
 			buildPhases = (
 				4F22C03D920852464DF701A1 /* Sources */,
-				8DC89A683FA981919469E98D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FinanceTracker;
+			packageProductDependencies = (
+			);
 			productName = FinanceTracker;
 			productReference = 757995A4D36A72157916AA04 /* FinanceTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -164,9 +152,8 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
-				ru,
 				Base,
+				en,
 			);
 			mainGroup = F18B063A2151E677CF5EE1F6;
 			minimizedProjectReferenceProxies = 1;
@@ -180,23 +167,12 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		8DC89A683FA981919469E98D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				038ED2FC7ECD489CB18B79BD /* Assets.xcassets in Resources */,
-				6035F4CA9343225C92C3626C /* Localizable.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		4F22C03D920852464DF701A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173DE1890B240294EF16F55F /* AppTheme.swift in Sources */,
 				A3F4B1FB473F4012155A752B /* CategoriesManagementView.swift in Sources */,
 				F3976936B260F6FEC5BF498E /* Category.swift in Sources */,
 				D4B240C2CFFF0BA5776EA27D /* CategoryEditorView.swift in Sources */,
@@ -217,18 +193,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A4339D502A850DEC422A5408 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A66AD67B91479F045053668 /* en */,
-				DA600E2DFB0CC006E001794D /* ru */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		29804E571D0CD9CF839E53CA /* Release */ = {

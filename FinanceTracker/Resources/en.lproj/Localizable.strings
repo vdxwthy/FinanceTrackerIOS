@@ -40,6 +40,11 @@
 
 /* Settings */
 "settings.title" = "Settings";
+"settings.appearance" = "Appearance";
+"settings.theme" = "Theme";
+"settings.theme.system" = "System";
+"settings.theme.light" = "Light";
+"settings.theme.dark" = "Dark";
 "settings.currency" = "Currency";
 "settings.categories" = "Categories";
 

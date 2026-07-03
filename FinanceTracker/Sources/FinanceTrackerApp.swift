@@ -3,6 +3,8 @@ import SwiftData
 
 @main
 struct FinanceTrackerApp: App {
+    @AppStorage(AppTheme.storageKey) private var appTheme: String = AppTheme.system.rawValue
+
     let modelContainer: ModelContainer = {
         let schema = Schema([Transaction.self, Category.self])
         // Local-only storage: no CloudKit sync, all data stays on device.
@@ -19,6 +21,7 @@ struct FinanceTrackerApp: App {
     var body: some Scene {
         WindowGroup {
             RootTabView()
+                .preferredColorScheme((AppTheme(rawValue: appTheme) ?? .system).colorScheme)
         }
         .modelContainer(modelContainer)
     }

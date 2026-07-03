@@ -40,6 +40,11 @@
 
 /* Settings */
 "settings.title" = "Настройки";
+"settings.appearance" = "Внешний вид";
+"settings.theme" = "Тема";
+"settings.theme.system" = "Системная";
+"settings.theme.light" = "Светлая";
+"settings.theme.dark" = "Тёмная";
 "settings.currency" = "Валюта";
 "settings.categories" = "Категории";
 
