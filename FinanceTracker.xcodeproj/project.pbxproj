@@ -11,6 +11,7 @@
 		173DE1890B240294EF16F55F /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBB4A007ADCABC96E852DD7 /* AppTheme.swift */; };
 		25B3FE8F55B9320AA33C897F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF70ADC6400A49D5F3755915 /* Assets.xcassets */; };
 		3E467ECB0140F439E65D3B25 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7969A267A8C80DE2FD00D2F4 /* SettingsView.swift */; };
+		4B768D81177F55FB97EE657C /* AppAccentColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D119E417735E11FE8B9159F9 /* AppAccentColor.swift */; };
 		655A911D604F78B7D165CE82 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79DCEF4A2BCCF7691475378 /* DashboardView.swift */; };
 		6A219AE6349A2330B4F527AE /* TransactionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C1DC21544F690196CBDDD6 /* TransactionFormView.swift */; };
 		6C6DB35D87B22CB45872EC78 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D7B39464322DF66907C9C5 /* TransactionsView.swift */; };
@@ -46,6 +47,7 @@
 		9B15CC58527EFCFA7D68A5FB /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 		B3C1DC21544F690196CBDDD6 /* TransactionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionFormView.swift; sourceTree = "<group>"; };
 		C031666D8A772B51645AD661 /* CategoryEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryEditorView.swift; sourceTree = "<group>"; };
+		D119E417735E11FE8B9159F9 /* AppAccentColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAccentColor.swift; sourceTree = "<group>"; };
 		D5D7B39464322DF66907C9C5 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
 		D79DCEF4A2BCCF7691475378 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		E47E8CBB665CAB1EC9011A97 /* CategorySeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySeeder.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		D599DA008D9151D7403469F2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D119E417735E11FE8B9159F9 /* AppAccentColor.swift */,
 				FDBB4A007ADCABC96E852DD7 /* AppTheme.swift */,
 				188D244E036C09F3576C6A66 /* Color+Hex.swift */,
 				97C585BEF824BA8D5690257E /* CurrencyFormatter.swift */,
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B768D81177F55FB97EE657C /* AppAccentColor.swift in Sources */,
 				173DE1890B240294EF16F55F /* AppTheme.swift in Sources */,
 				A3F4B1FB473F4012155A752B /* CategoriesManagementView.swift in Sources */,
 				F3976936B260F6FEC5BF498E /* Category.swift in Sources */,

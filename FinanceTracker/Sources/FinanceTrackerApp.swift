@@ -4,6 +4,7 @@ import SwiftData
 @main
 struct FinanceTrackerApp: App {
     @AppStorage(AppTheme.storageKey) private var appTheme: String = AppTheme.system.rawValue
+    @AppStorage(AppAccentColor.storageKey) private var accentColorHex: String = AppAccentColor.default.rawValue
 
     let modelContainer: ModelContainer = {
         let schema = Schema([Transaction.self, Category.self])
@@ -22,6 +23,7 @@ struct FinanceTrackerApp: App {
         WindowGroup {
             RootTabView()
                 .preferredColorScheme((AppTheme(rawValue: appTheme) ?? .system).colorScheme)
+                .tint(Color(hex: accentColorHex))
         }
         .modelContainer(modelContainer)
     }
