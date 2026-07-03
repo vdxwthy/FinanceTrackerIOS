@@ -38,7 +38,7 @@ struct CategoriesManagementView: View {
                             Image(systemName: category.icon).foregroundStyle(category.color).font(.subheadline)
                         }
                         Text(category.displayName)
-                            .foregroundStyle(.white)
+                            .foregroundStyle(.primary)
                         Spacer()
                         if !category.isCustom {
                             Image(systemName: "lock.fill")

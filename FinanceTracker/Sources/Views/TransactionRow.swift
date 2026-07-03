@@ -20,7 +20,7 @@ struct TransactionRow: View {
             VStack(alignment: .leading, spacing: 2) {
                 Text(name)
                     .font(.body)
-                    .foregroundStyle(.white)
+                    .foregroundStyle(.primary)
                 if !transaction.note.isEmpty {
                     Text(transaction.note)
                         .font(.caption)
