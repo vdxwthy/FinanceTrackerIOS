@@ -20,6 +20,13 @@
 "transactions.noResults" = "Ничего не найдено по запросу «%@».";
 "transactions.searchPrompt" = "Поиск операций";
 "transactions.filterAll" = "Все";
+"transactions.dateFilter.all" = "Всё время";
+"transactions.dateFilter.today" = "Сегодня";
+"transactions.dateFilter.week" = "Эта неделя";
+"transactions.dateFilter.month" = "Этот месяц";
+"transactions.dateFilter.custom" = "Свой период";
+"transactions.dateFilter.from" = "С";
+"transactions.dateFilter.to" = "По";
 
 /* Transaction form */
 "form.type" = "Тип";

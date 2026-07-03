@@ -20,6 +20,13 @@
 "transactions.noResults" = "No results for \"%@\".";
 "transactions.searchPrompt" = "Search transactions";
 "transactions.filterAll" = "All";
+"transactions.dateFilter.all" = "All Time";
+"transactions.dateFilter.today" = "Today";
+"transactions.dateFilter.week" = "This Week";
+"transactions.dateFilter.month" = "This Month";
+"transactions.dateFilter.custom" = "Custom Range";
+"transactions.dateFilter.from" = "From";
+"transactions.dateFilter.to" = "To";
 
 /* Transaction form */
 "form.type" = "Type";
