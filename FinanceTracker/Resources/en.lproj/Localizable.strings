@@ -64,6 +64,8 @@
 /* Common actions */
 "action.cancel" = "Cancel";
 "action.save" = "Save";
+"action.edit" = "Edit";
+"action.delete" = "Delete";
 
 /* Built-in category names */
 "category.food" = "Food";

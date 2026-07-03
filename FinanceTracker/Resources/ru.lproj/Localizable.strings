@@ -64,6 +64,8 @@
 /* Common actions */
 "action.cancel" = "Отмена";
 "action.save" = "Сохранить";
+"action.edit" = "Изменить";
+"action.delete" = "Удалить";
 
 /* Built-in category names */
 "category.food" = "Еда";

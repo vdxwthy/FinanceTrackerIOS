@@ -47,9 +47,19 @@ struct TransactionsView: View {
                                     TransactionRow(transaction: transaction)
                                         .contentShape(Rectangle())
                                         .onTapGesture { editingTransaction = transaction }
-                                }
-                                .onDelete { offsets in
-                                    delete(offsets: offsets, from: group.transactions)
+                                        .swipeActions(edge: .trailing) {
+                                            Button(role: .destructive) {
+                                                modelContext.delete(transaction)
+                                            } label: {
+                                                Label("action.delete", systemImage: "trash")
+                                            }
+                                            Button {
+                                                editingTransaction = transaction
+                                            } label: {
+                                                Label("action.edit", systemImage: "pencil")
+                                            }
+                                            .tint(.blue)
+                                        }
                                 }
                             }
                         }
@@ -75,11 +85,6 @@ struct TransactionsView: View {
         }
     }
 
-    private func delete(offsets: IndexSet, from dayTransactions: [Transaction]) {
-        for index in offsets {
-            modelContext.delete(dayTransactions[index])
-        }
-    }
 }
 
 #Preview {
