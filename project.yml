@@ -18,10 +18,12 @@ targets:
     deploymentTarget: "17.0"
     sources:
       - path: FinanceTracker/Sources
-    resources:
       - path: FinanceTracker/Resources/Assets.xcassets
+        buildPhase: resources
       - path: FinanceTracker/Resources/en.lproj
+        buildPhase: resources
       - path: FinanceTracker/Resources/ru.lproj
+        buildPhase: resources
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.evgenijmihajlov.FinanceTracker
